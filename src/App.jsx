@@ -5,11 +5,7 @@ function App() {
   return (
     <>
 
-      <h1>Vite + React</h1>
-      <Person/>
-      <Person/>
-      <Person />
-      <Sports/>
+      <h1>Core Concept of React!</h1>
       
       
     </>
