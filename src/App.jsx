@@ -9,6 +9,7 @@ function App() {
       <Student></Student>
       <Student></Student>
       <Person></Person>
+      <Person></Person>
       <Developer name="Minhajul" tech="JavaScript"></Developer>
       <Developer name="Juel" tech="Python"></Developer>
       <Developer name="Tahmeed" tech="Java"></Developer>
