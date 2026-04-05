@@ -10,9 +10,9 @@ function App() {
       <Student></Student>
       <Person></Person>
       <Person></Person>
-      <Developer name="Minhajul" tech="JavaScript"></Developer>
-      <Developer name="Juel" tech="Python"></Developer>
-      <Developer name="Tahmeed" tech="Java"></Developer>
+      <Developer name="Minhajul" dept="CSE"  tech="JavaScript"></Developer>
+      <Developer name="Juel" dept="BBA" tech="Python"></Developer>
+      <Developer name="Tahmeed" dept="SWE" tech="Java"></Developer>
       
       
     </>
@@ -29,6 +29,7 @@ function Developer(props) {
         borderRadius:'10px'
     }}>
       <h3>Developer:{props.name} </h3>
+      <p>Department:{props.dept}</p>
       <p>Technology:{props.tech} </p>
     </div>
   )
