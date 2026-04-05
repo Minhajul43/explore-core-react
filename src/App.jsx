@@ -59,8 +59,8 @@ function Sports() {
 function Student() {
   return (
     <div className='student'>
-      <p>Name: </p>
-      <p>Dept: </p>
+      <p>Name: Minhajul Islam </p>
+      <p>Dept: CSE </p>
     </div>
   )
 }
