@@ -6,10 +6,16 @@ function App() {
   return (
     <>
       <h1>Core Concept of React!</h1>
-      {/* <ToDo task="Learn React"></ToDo>
+      <ToDo task="Learn React"
+        isdone={true}
+        time={time}></ToDo>
+      
+      <ToDo task="Revision Js"
+        isdone={false}
+      time={time}></ToDo>
       <ToDo task="Learn React"></ToDo>
-      <ToDo task="Learn React"></ToDo> */}
-      <Student></Student>
+
+      {/* <Student></Student>
       <Student></Student>
       <Person></Person>
       <Person></Person>
@@ -20,7 +26,7 @@ function App() {
       <Player name="Tamin" run="3000"></Player>
       <Player name="Minhajul" run="3500"></Player>
 
-      <Salami salami="Rojer Eid" amount="200"></Salami>
+      <Salami salami="Rojer Eid" amount="200"></Salami> */}
     </>
   )
 }
