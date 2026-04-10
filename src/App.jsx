@@ -1,19 +1,24 @@
 import './App.css'
 import ToDo from './Todo';
+import Actor from './Actor';
 
 function App() {
+  const names = ['Minhaul Islam', 'Tahmeed Islam', 'Juel Rana'];
 
   return (
     <>
       <h1>Core Concept of React!</h1>
-      <ToDo task="Learn React"
+      {
+        names.map(name => <Name name={name} ></Name>)
+      }
+      {/* <ToDo task="Learn React"
         isdone={true}
         time={time}></ToDo>
       
       <ToDo task="Revision Js"
         isdone={false}
       time={time}></ToDo>
-      <ToDo task="Learn React"></ToDo>
+      <ToDo task="Learn React"></ToDo> */}
 
       {/* <Student></Student>
       <Student></Student>
